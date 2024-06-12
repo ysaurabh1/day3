@@ -1,0 +1,59 @@
+<script>
+ a=['balbir','babu','dhinchack','system','systemi']
+b=a.length
+
+
+// console.log(a[b-2])
+// alert(a[b-2])
+// for(let i=0;i<b;i++){
+//     console.log(`Square of ${a[i]} is ${a[i]*a[i]}`)
+// }
+
+// for(let i=0;i<b;i++){
+//     if(a[i]%2==0){
+//         console.log(`${a[i]}`)
+//     }
+// }
+// for(let i=0;i<b;i++){
+//     sum=sum+a[i]
+//     }
+// avg=sum/b
+// console.log(`sum is :${sum}`)
+// console.log(`avg is :${avg}`)
+
+
+// key=a[0]
+// for( let i=0;i<b;i++){
+//     if(a[i]>key){
+//         key=a[i]
+//     }}
+// console.log(`largest is :${key}`)
+// key=a[0]
+//     for( let i=0;i<b;i++){
+//     if(a[i]<key){
+//         key=a[i]
+//     }}
+//     console.log(`Smallest is :${key}`)
+
+name=prompt("Enter the name")
+flag=false
+for(let i=0;i<b;i++){
+
+    if(a[i]==name){
+        console.log(`name found at ${i+1}`)
+        flag=true
+        break;
+        
+     }
+    // else{
+    //     alert(`${name} is not found`) 
+    // }
+}
+if(flag==false){
+    console.log(`${name} is not found`) 
+}
+
+
+
+
+</script>
